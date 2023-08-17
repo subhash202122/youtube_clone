@@ -36,3 +36,46 @@
     transform: rotate(360deg);
   }
 }
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  body {
+      font-size: 14px;
+  }
+  h1 {
+      font-size: 30px;
+  }
+  h2 {
+      font-size: 22px;
+  }
+  .container {
+      padding: 20px;
+  }
+  ul {
+      margin-left: 0;
+  }
+  li {
+      margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+      font-size: 12px;
+  }
+  h1 {
+      font-size: 26px;
+  }
+  h2 {
+      font-size: 18px;
+  }
+  .container {
+      padding: 10px;
+  }
+  ul {
+      margin-left: 0;
+  }
+  li {
+      margin-bottom: 10px;
+  }
+}
